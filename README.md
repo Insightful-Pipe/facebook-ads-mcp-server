@@ -162,6 +162,17 @@ Then authorize the connection when Cursor prompts you.
 
 </details>
 
+## Control What Your AI Can Do
+
+You decide what AI agents can do with each connected account:
+
+- **Turn individual actions on or off** for every connected account, so agents only see the actions you allow.
+- **Connect as Read-only or Read & Write.** A read-only connection can only enable read actions.
+- **Destructive actions stay off by default.** Actions such as deletes are disabled until an admin enables them.
+- **Team access per account.** Restricted team members only use the accounts they are granted, with the read actions enabled on them.
+
+New Meta campaigns are created **paused**, so nothing spends until you turn it on.
+
 ## Usage Examples
 
 ### Campaign Performance Analysis
@@ -225,6 +236,10 @@ Then authorize the connection when Cursor prompts you.
 - **Official Meta Marketing API** - Direct integration with Meta's API
 - **OAuth 2.0** - Secure Meta authentication
 - **Granular permissions** - Control read vs write access
+
+## Ready-Made Skills and Prompts
+
+- [Claude skills for Meta Ads](https://insightfulpipe.com/marketing-claude-skills/facebook-ads) — ready-made skills that run on your connected data
 
 ## Explore More MCP Servers by Insightful Pipe
 
