@@ -72,12 +72,12 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 
 ## Available Actions
 
-67 actions: 41 read, 26 write.
+53 actions: 38 read, 15 write.
 
-### Read Actions (41)
+### Read Actions (38)
 
 <details>
-<summary>Show all 41 read actions</summary>
+<summary>Show all 38 read actions</summary>
 
 | Action | Description |
 |--------|-------------|
@@ -98,11 +98,8 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 | `get_adset` | Fetch details for a single ad set |
 | `get_adsets` | List ad sets for an ad account or campaign |
 | `get_adsets_by_campaign` | List ad sets for a specific campaign |
-| `get_business_pixels` | List datasets (Meta Pixels) owned by a Business |
-| `get_businesses` | List the Business Managers the connected user owns or manages |
 | `get_campaign` | Fetch details for a single campaign |
 | `get_campaigns` | List campaigns for an ad account |
-| `get_catalogs` | List product catalogs owned by a Business |
 | `get_custom_audiences` | List custom audiences for an ad account |
 | `get_custom_conversion` | Get details for a specific custom conversion |
 | `get_custom_conversions` | List custom conversions for an ad account |
@@ -125,26 +122,16 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 
 </details>
 
-### Write Actions (26)
-
-<details>
-<summary>Show all 26 write actions</summary>
+### Write Actions (15)
 
 | Action | Description |
 |--------|-------------|
-| `assign_dataset_user` | Assign a user to a dataset |
-| `connect_dataset` | Connect a dataset to an ad account and/or catalog |
 | `create_ad` | Create a new ad (created in PAUSED status) |
 | `create_ad_creative` | Create a new ad creative |
 | `create_adset` | Create a new ad set (created in PAUSED status) |
 | `create_campaign` | Create a new campaign (created in PAUSED status) |
-| `create_catalog` | Create a product catalog in a Business |
 | `create_custom_conversion` | Create a new custom conversion for an ad account |
-| `create_dataset` | Create a dataset (Meta Pixel) in a Business |
 | `create_leadgen_form` | Create a lead generation form on a Facebook Page |
-| `create_product_feed` | Create a product feed inside a catalog |
-| `create_product_item` | Create a product item inside a catalog |
-| `create_product_set` | Create a product set inside a catalog |
 | `delete_ad` | Permanently DELETE an ad |
 | `delete_adset` | Permanently DELETE an ad set (and all its ads) |
 | `delete_campaign` | Permanently DELETE a campaign (and all its ad sets + ads) |
@@ -152,14 +139,8 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 | `update_ad_creative` | Update an existing ad creative (name or labels only) |
 | `update_adset` | Update an existing ad set |
 | `update_campaign` | Update an existing campaign |
-| `update_catalog` | Update a product catalog |
-| `update_product_feed` | Update a product feed |
-| `update_product_item` | Update a product item |
-| `update_product_set` | Update a product set |
 | `upload_ad_image` | Upload an image to the ad account from a public URL or base64-encoded bytes |
 | `upload_ad_video` | Upload a video to the ad account from a URL or create a slideshow |
-
-</details>
 
 ## Control What Your AI Can Do
 
