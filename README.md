@@ -238,7 +238,7 @@ New Meta campaigns are created **paused**, so nothing spends until you turn it o
 
 ## Pricing
 
-The Facebook Ads MCP server is included in every InsightfulPipe plan, together with all other MCP servers and the CLI. Plans start at $29.99/month with a 7-day free trial. See [insightfulpipe.com/pricing](https://insightfulpipe.com/pricing) for current plans.
+The Facebook Ads MCP server is included in every InsightfulPipe plan, together with all other MCP servers and the CLI. Plans start at $29.99/month, and you can try it for 7 days. See [insightfulpipe.com/pricing](https://insightfulpipe.com/pricing) for current plans.
 
 ## Ready-Made Skills and Prompts
 
